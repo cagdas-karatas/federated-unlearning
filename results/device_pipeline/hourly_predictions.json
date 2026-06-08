@@ -1,0 +1,266 @@
+[
+  {
+    "hour": 0,
+    "prediction": "WhatsApp",
+    "confidence": 0.3232918083667755,
+    "probs": {
+      "Instagram": 0.31286394596099854,
+      "YouTube": 0.30817919969558716,
+      "LinkedIn": 0.05566512048244476,
+      "WhatsApp": 0.3232918083667755
+    }
+  },
+  {
+    "hour": 1,
+    "prediction": "YouTube",
+    "confidence": 0.3518590033054352,
+    "probs": {
+      "Instagram": 0.2289140820503235,
+      "YouTube": 0.3518590033054352,
+      "LinkedIn": 0.088694728910923,
+      "WhatsApp": 0.3305321931838989
+    }
+  },
+  {
+    "hour": 2,
+    "prediction": "WhatsApp",
+    "confidence": 0.38479864597320557,
+    "probs": {
+      "Instagram": 0.1408247947692871,
+      "YouTube": 0.374452143907547,
+      "LinkedIn": 0.09992445260286331,
+      "WhatsApp": 0.38479864597320557
+    }
+  },
+  {
+    "hour": 3,
+    "prediction": "WhatsApp",
+    "confidence": 0.4022781550884247,
+    "probs": {
+      "Instagram": 0.12196193635463715,
+      "YouTube": 0.3588970899581909,
+      "LinkedIn": 0.11686280369758606,
+      "WhatsApp": 0.4022781550884247
+    }
+  },
+  {
+    "hour": 4,
+    "prediction": "WhatsApp",
+    "confidence": 0.4011128842830658,
+    "probs": {
+      "Instagram": 0.11729735136032104,
+      "YouTube": 0.3579765856266022,
+      "LinkedIn": 0.12361312657594681,
+      "WhatsApp": 0.4011128842830658
+    }
+  },
+  {
+    "hour": 5,
+    "prediction": "WhatsApp",
+    "confidence": 0.38684746623039246,
+    "probs": {
+      "Instagram": 0.12579315900802612,
+      "YouTube": 0.3539086580276489,
+      "LinkedIn": 0.1334506720304489,
+      "WhatsApp": 0.38684746623039246
+    }
+  },
+  {
+    "hour": 6,
+    "prediction": "WhatsApp",
+    "confidence": 0.35551559925079346,
+    "probs": {
+      "Instagram": 0.15249156951904297,
+      "YouTube": 0.3404928743839264,
+      "LinkedIn": 0.15149995684623718,
+      "WhatsApp": 0.35551559925079346
+    }
+  },
+  {
+    "hour": 7,
+    "prediction": "WhatsApp",
+    "confidence": 0.35032394528388977,
+    "probs": {
+      "Instagram": 0.20517608523368835,
+      "YouTube": 0.2988533079624176,
+      "LinkedIn": 0.1456466168165207,
+      "WhatsApp": 0.35032394528388977
+    }
+  },
+  {
+    "hour": 8,
+    "prediction": "WhatsApp",
+    "confidence": 0.5161277651786804,
+    "probs": {
+      "Instagram": 0.02877507172524929,
+      "YouTube": 0.4188908338546753,
+      "LinkedIn": 0.03620632737874985,
+      "WhatsApp": 0.5161277651786804
+    }
+  },
+  {
+    "hour": 9,
+    "prediction": "YouTube",
+    "confidence": 0.5575714111328125,
+    "probs": {
+      "Instagram": 0.0013732498046010733,
+      "YouTube": 0.5575714111328125,
+      "LinkedIn": 0.014884346164762974,
+      "WhatsApp": 0.4261710047721863
+    }
+  },
+  {
+    "hour": 10,
+    "prediction": "LinkedIn",
+    "confidence": 0.4030454754829407,
+    "probs": {
+      "Instagram": 0.04581733047962189,
+      "YouTube": 0.20799122750759125,
+      "LinkedIn": 0.4030454754829407,
+      "WhatsApp": 0.3431459367275238
+    }
+  },
+  {
+    "hour": 11,
+    "prediction": "LinkedIn",
+    "confidence": 0.49808257818222046,
+    "probs": {
+      "Instagram": 0.09420734643936157,
+      "YouTube": 0.15639127790927887,
+      "LinkedIn": 0.49808257818222046,
+      "WhatsApp": 0.2513188421726227
+    }
+  },
+  {
+    "hour": 12,
+    "prediction": "LinkedIn",
+    "confidence": 0.48512977361679077,
+    "probs": {
+      "Instagram": 0.1411474049091339,
+      "YouTube": 0.14577876031398773,
+      "LinkedIn": 0.48512977361679077,
+      "WhatsApp": 0.22794409096240997
+    }
+  },
+  {
+    "hour": 13,
+    "prediction": "Instagram",
+    "confidence": 0.4849053919315338,
+    "probs": {
+      "Instagram": 0.4849053919315338,
+      "YouTube": 0.11150103807449341,
+      "LinkedIn": 0.2504687011241913,
+      "WhatsApp": 0.15312491357326508
+    }
+  },
+  {
+    "hour": 14,
+    "prediction": "Instagram",
+    "confidence": 0.2876330018043518,
+    "probs": {
+      "Instagram": 0.2876330018043518,
+      "YouTube": 0.19204983115196228,
+      "LinkedIn": 0.2703099846839905,
+      "WhatsApp": 0.2500072121620178
+    }
+  },
+  {
+    "hour": 15,
+    "prediction": "WhatsApp",
+    "confidence": 0.3409482538700104,
+    "probs": {
+      "Instagram": 0.16892051696777344,
+      "YouTube": 0.22227266430854797,
+      "LinkedIn": 0.2678585350513458,
+      "WhatsApp": 0.3409482538700104
+    }
+  },
+  {
+    "hour": 16,
+    "prediction": "WhatsApp",
+    "confidence": 0.3504883348941803,
+    "probs": {
+      "Instagram": 0.16856153309345245,
+      "YouTube": 0.23190297186374664,
+      "LinkedIn": 0.2490472048521042,
+      "WhatsApp": 0.3504883348941803
+    }
+  },
+  {
+    "hour": 17,
+    "prediction": "WhatsApp",
+    "confidence": 0.32167309522628784,
+    "probs": {
+      "Instagram": 0.1933928281068802,
+      "YouTube": 0.25354140996932983,
+      "LinkedIn": 0.23139265179634094,
+      "WhatsApp": 0.32167309522628784
+    }
+  },
+  {
+    "hour": 18,
+    "prediction": "YouTube",
+    "confidence": 0.4529598355293274,
+    "probs": {
+      "Instagram": 0.21621935069561005,
+      "YouTube": 0.4529598355293274,
+      "LinkedIn": 0.10954161733388901,
+      "WhatsApp": 0.22127915918827057
+    }
+  },
+  {
+    "hour": 19,
+    "prediction": "YouTube",
+    "confidence": 0.9176130294799805,
+    "probs": {
+      "Instagram": 0.037488143891096115,
+      "YouTube": 0.9176130294799805,
+      "LinkedIn": 0.015391737222671509,
+      "WhatsApp": 0.02950713224709034
+    }
+  },
+  {
+    "hour": 20,
+    "prediction": "YouTube",
+    "confidence": 0.9222416877746582,
+    "probs": {
+      "Instagram": 0.03692794218659401,
+      "YouTube": 0.9222416877746582,
+      "LinkedIn": 0.012916374020278454,
+      "WhatsApp": 0.027914071455597878
+    }
+  },
+  {
+    "hour": 21,
+    "prediction": "YouTube",
+    "confidence": 0.9033721685409546,
+    "probs": {
+      "Instagram": 0.045107439160346985,
+      "YouTube": 0.9033721685409546,
+      "LinkedIn": 0.015153681859374046,
+      "WhatsApp": 0.036366790533065796
+    }
+  },
+  {
+    "hour": 22,
+    "prediction": "YouTube",
+    "confidence": 0.49238190054893494,
+    "probs": {
+      "Instagram": 0.2458726167678833,
+      "YouTube": 0.49238190054893494,
+      "LinkedIn": 0.04639599472284317,
+      "WhatsApp": 0.2153494656085968
+    }
+  },
+  {
+    "hour": 23,
+    "prediction": "Instagram",
+    "confidence": 0.3565188944339752,
+    "probs": {
+      "Instagram": 0.3565188944339752,
+      "YouTube": 0.28330299258232117,
+      "LinkedIn": 0.020138399675488472,
+      "WhatsApp": 0.3400397002696991
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "loss_history": [
+    1.3881150548431702,
+    1.4454460536422173,
+    1.512075941993276,
+    1.5973431532361408,
+    1.6917867649119045
+  ],
+  "total_time_seconds": 0.223812307,
+  "n_records": 2289,
+  "lr": 0.001,
+  "epochs": 5,
+  "batch_size": 32,
+  "max_norm": 1,
+  "seed": 42,
+  "optimizer": "SGD",
+  "grad_flip": true,
+  "forget_user": "user1"
+}

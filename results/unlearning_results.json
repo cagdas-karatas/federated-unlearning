@@ -1,5 +1,5 @@
 {
-  "experiment_date": "2026-05-24",
+  "experiment_date": "2026-06-09",
   "client_removed": "user1",
   "models": {
     "original": {
@@ -10,34 +10,32 @@
       "sample_count": 144,
       "entropy": 1.271428243301791
     },
-    "client_based_unlearned": {
-      "Instagram": 0.01703045703470707,
-      "YouTube": 0.386857807636261,
-      "LinkedIn": 0.04394024610519409,
-      "WhatsApp": 0.5521716475486755,
+    "fedraser": {
+      "Instagram": 0.012700926512479782,
+      "YouTube": 0.27167627215385437,
+      "LinkedIn": 0.034571755677461624,
+      "WhatsApp": 0.6810507774353027,
       "sample_count": 144,
-      "entropy": 0.9020016114058416,
-      "reduction_percent": 94.54,
-      "execution_time_s": 2.12,
-      "correction_norm": 9.1161,
-      "recovery_loss_history": [
-        1.0203916132450104,
-        1.0206510424613953,
-        1.0250866115093231
-      ]
+      "entropy": 0.7874149563672934,
+      "reduction_percent": 95.93,
+      "execution_time_s": 2.1501,
+      "total_delta_norm": 8.9827
     },
-    "server_based_unlearned": {
-      "Instagram": 0.020503688603639603,
-      "YouTube": 0.28028011322021484,
-      "LinkedIn": 0.057521507143974304,
-      "WhatsApp": 0.6416945457458496,
+    "ga": {
+      "Instagram": 0.02019382081925869,
+      "YouTube": 0.3466278612613678,
+      "LinkedIn": 0.05564962327480316,
+      "WhatsApp": 0.5775284171104431,
       "sample_count": 144,
-      "entropy": 0.8851490525133933,
-      "reduction_percent": 93.42,
-      "execution_time_s": 1.34,
-      "recovery_loss_history": [
-        1.02801713347435,
-        1.0263105630874634
+      "entropy": 0.9238730587235693,
+      "reduction_percent": 93.52,
+      "execution_time_s": 2.89,
+      "loss_history": [
+        1.389704739054044,
+        1.4425077901946173,
+        1.5171416600545247,
+        1.598289868897862,
+        1.6960970511039097
       ]
     },
     "sisa_retrain": {
@@ -48,7 +46,7 @@
       "sample_count": 144,
       "entropy": 1.0784251368517417,
       "reduction_percent": 72.99,
-      "note": "Sifirdan egitim — user1 hic dahil edilmedi (ideal baseline)"
+      "note": "Sifirdan egitim - user1 hic dahil edilmedi (ideal baseline)"
     }
   },
   "remaining_clients_accuracy": {
@@ -56,18 +54,1089 @@
       "user2": 0.3186090290546417,
       "user3": 0.5306310653686523
     },
-    "client_based": {
-      "user2": 0.34257519245147705,
-      "user3": 0.49239981174468994
+    "fedraser": {
+      "user2": 0.31813910603523254,
+      "user3": 0.5462920069694519
     },
-    "server_based": {
-      "user2": 0.3129699230194092,
-      "user3": 0.5343160033226013
+    "ga": {
+      "user2": 0.3237781822681427,
+      "user3": 0.5246430039405823
     },
     "sisa": {
       "user2": 0.33552631735801697,
       "user3": 0.4896361231803894
     }
   },
-  "conclusion": "Client-Based Unlearning daha etkili (Instagram %94.5 azaldı)"
+  "conclusion": "FedEraser daha etkili (Instagram %95.9 azaldi)",
+  "hourly_predictions": {
+    "Orijinal": [
+      {
+        "hour": 0,
+        "prediction": "Instagram",
+        "confidence": 0.3725,
+        "probs": {
+          "Instagram": 0.3725,
+          "YouTube": 0.274,
+          "LinkedIn": 0.0551,
+          "WhatsApp": 0.2984
+        }
+      },
+      {
+        "hour": 1,
+        "prediction": "Instagram",
+        "confidence": 0.4465,
+        "probs": {
+          "Instagram": 0.4465,
+          "YouTube": 0.2452,
+          "LinkedIn": 0.0617,
+          "WhatsApp": 0.2466
+        }
+      },
+      {
+        "hour": 2,
+        "prediction": "YouTube",
+        "confidence": 0.3511,
+        "probs": {
+          "Instagram": 0.2382,
+          "YouTube": 0.3511,
+          "LinkedIn": 0.0677,
+          "WhatsApp": 0.3431
+        }
+      },
+      {
+        "hour": 3,
+        "prediction": "WhatsApp",
+        "confidence": 0.3891,
+        "probs": {
+          "Instagram": 0.1518,
+          "YouTube": 0.3796,
+          "LinkedIn": 0.0796,
+          "WhatsApp": 0.3891
+        }
+      },
+      {
+        "hour": 4,
+        "prediction": "WhatsApp",
+        "confidence": 0.4013,
+        "probs": {
+          "Instagram": 0.1279,
+          "YouTube": 0.3644,
+          "LinkedIn": 0.1064,
+          "WhatsApp": 0.4013
+        }
+      },
+      {
+        "hour": 5,
+        "prediction": "WhatsApp",
+        "confidence": 0.3928,
+        "probs": {
+          "Instagram": 0.1366,
+          "YouTube": 0.3555,
+          "LinkedIn": 0.1152,
+          "WhatsApp": 0.3928
+        }
+      },
+      {
+        "hour": 6,
+        "prediction": "YouTube",
+        "confidence": 0.3485,
+        "probs": {
+          "Instagram": 0.2196,
+          "YouTube": 0.3485,
+          "LinkedIn": 0.0858,
+          "WhatsApp": 0.3462
+        }
+      },
+      {
+        "hour": 7,
+        "prediction": "Instagram",
+        "confidence": 0.4023,
+        "probs": {
+          "Instagram": 0.4023,
+          "YouTube": 0.3053,
+          "LinkedIn": 0.0319,
+          "WhatsApp": 0.2605
+        }
+      },
+      {
+        "hour": 8,
+        "prediction": "Instagram",
+        "confidence": 0.4634,
+        "probs": {
+          "Instagram": 0.4634,
+          "YouTube": 0.2576,
+          "LinkedIn": 0.0108,
+          "WhatsApp": 0.2682
+        }
+      },
+      {
+        "hour": 9,
+        "prediction": "WhatsApp",
+        "confidence": 0.412,
+        "probs": {
+          "Instagram": 0.2591,
+          "YouTube": 0.299,
+          "LinkedIn": 0.0299,
+          "WhatsApp": 0.412
+        }
+      },
+      {
+        "hour": 10,
+        "prediction": "LinkedIn",
+        "confidence": 0.321,
+        "probs": {
+          "Instagram": 0.2645,
+          "YouTube": 0.1707,
+          "LinkedIn": 0.321,
+          "WhatsApp": 0.2437
+        }
+      },
+      {
+        "hour": 11,
+        "prediction": "LinkedIn",
+        "confidence": 0.3024,
+        "probs": {
+          "Instagram": 0.2764,
+          "YouTube": 0.173,
+          "LinkedIn": 0.3024,
+          "WhatsApp": 0.2482
+        }
+      },
+      {
+        "hour": 12,
+        "prediction": "LinkedIn",
+        "confidence": 0.3236,
+        "probs": {
+          "Instagram": 0.24,
+          "YouTube": 0.183,
+          "LinkedIn": 0.3236,
+          "WhatsApp": 0.2533
+        }
+      },
+      {
+        "hour": 13,
+        "prediction": "Instagram",
+        "confidence": 0.3667,
+        "probs": {
+          "Instagram": 0.3667,
+          "YouTube": 0.1766,
+          "LinkedIn": 0.2441,
+          "WhatsApp": 0.2125
+        }
+      },
+      {
+        "hour": 14,
+        "prediction": "LinkedIn",
+        "confidence": 0.3121,
+        "probs": {
+          "Instagram": 0.2138,
+          "YouTube": 0.1968,
+          "LinkedIn": 0.3121,
+          "WhatsApp": 0.2773
+        }
+      },
+      {
+        "hour": 15,
+        "prediction": "LinkedIn",
+        "confidence": 0.3699,
+        "probs": {
+          "Instagram": 0.1093,
+          "YouTube": 0.1654,
+          "LinkedIn": 0.3699,
+          "WhatsApp": 0.3555
+        }
+      },
+      {
+        "hour": 16,
+        "prediction": "WhatsApp",
+        "confidence": 0.3733,
+        "probs": {
+          "Instagram": 0.1042,
+          "YouTube": 0.1503,
+          "LinkedIn": 0.3721,
+          "WhatsApp": 0.3733
+        }
+      },
+      {
+        "hour": 17,
+        "prediction": "LinkedIn",
+        "confidence": 0.3607,
+        "probs": {
+          "Instagram": 0.1171,
+          "YouTube": 0.1666,
+          "LinkedIn": 0.3607,
+          "WhatsApp": 0.3556
+        }
+      },
+      {
+        "hour": 18,
+        "prediction": "YouTube",
+        "confidence": 0.4007,
+        "probs": {
+          "Instagram": 0.1985,
+          "YouTube": 0.4007,
+          "LinkedIn": 0.1713,
+          "WhatsApp": 0.2295
+        }
+      },
+      {
+        "hour": 19,
+        "prediction": "YouTube",
+        "confidence": 0.7188,
+        "probs": {
+          "Instagram": 0.1487,
+          "YouTube": 0.7188,
+          "LinkedIn": 0.0466,
+          "WhatsApp": 0.0859
+        }
+      },
+      {
+        "hour": 20,
+        "prediction": "YouTube",
+        "confidence": 0.7522,
+        "probs": {
+          "Instagram": 0.1302,
+          "YouTube": 0.7522,
+          "LinkedIn": 0.0405,
+          "WhatsApp": 0.0771
+        }
+      },
+      {
+        "hour": 21,
+        "prediction": "YouTube",
+        "confidence": 0.6714,
+        "probs": {
+          "Instagram": 0.2005,
+          "YouTube": 0.6714,
+          "LinkedIn": 0.0331,
+          "WhatsApp": 0.0949
+        }
+      },
+      {
+        "hour": 22,
+        "prediction": "Instagram",
+        "confidence": 0.3903,
+        "probs": {
+          "Instagram": 0.3903,
+          "YouTube": 0.2961,
+          "LinkedIn": 0.0242,
+          "WhatsApp": 0.2894
+        }
+      },
+      {
+        "hour": 23,
+        "prediction": "Instagram",
+        "confidence": 0.3765,
+        "probs": {
+          "Instagram": 0.3765,
+          "YouTube": 0.2637,
+          "LinkedIn": 0.0401,
+          "WhatsApp": 0.3197
+        }
+      }
+    ],
+    "FedEraser": [
+      {
+        "hour": 0,
+        "prediction": "Instagram",
+        "confidence": 0.411,
+        "probs": {
+          "Instagram": 0.411,
+          "YouTube": 0.3012,
+          "LinkedIn": 0.0279,
+          "WhatsApp": 0.2599
+        }
+      },
+      {
+        "hour": 1,
+        "prediction": "Instagram",
+        "confidence": 0.3621,
+        "probs": {
+          "Instagram": 0.3621,
+          "YouTube": 0.305,
+          "LinkedIn": 0.0388,
+          "WhatsApp": 0.2942
+        }
+      },
+      {
+        "hour": 2,
+        "prediction": "WhatsApp",
+        "confidence": 0.3611,
+        "probs": {
+          "Instagram": 0.2185,
+          "YouTube": 0.329,
+          "LinkedIn": 0.0914,
+          "WhatsApp": 0.3611
+        }
+      },
+      {
+        "hour": 3,
+        "prediction": "WhatsApp",
+        "confidence": 0.3664,
+        "probs": {
+          "Instagram": 0.1911,
+          "YouTube": 0.3233,
+          "LinkedIn": 0.1192,
+          "WhatsApp": 0.3664
+        }
+      },
+      {
+        "hour": 4,
+        "prediction": "WhatsApp",
+        "confidence": 0.3627,
+        "probs": {
+          "Instagram": 0.1904,
+          "YouTube": 0.3162,
+          "LinkedIn": 0.1308,
+          "WhatsApp": 0.3627
+        }
+      },
+      {
+        "hour": 5,
+        "prediction": "WhatsApp",
+        "confidence": 0.3532,
+        "probs": {
+          "Instagram": 0.211,
+          "YouTube": 0.3089,
+          "LinkedIn": 0.1268,
+          "WhatsApp": 0.3532
+        }
+      },
+      {
+        "hour": 6,
+        "prediction": "WhatsApp",
+        "confidence": 0.322,
+        "probs": {
+          "Instagram": 0.2291,
+          "YouTube": 0.3056,
+          "LinkedIn": 0.1433,
+          "WhatsApp": 0.322
+        }
+      },
+      {
+        "hour": 7,
+        "prediction": "WhatsApp",
+        "confidence": 0.3447,
+        "probs": {
+          "Instagram": 0.2741,
+          "YouTube": 0.2717,
+          "LinkedIn": 0.1095,
+          "WhatsApp": 0.3447
+        }
+      },
+      {
+        "hour": 8,
+        "prediction": "WhatsApp",
+        "confidence": 0.6137,
+        "probs": {
+          "Instagram": 0.0395,
+          "YouTube": 0.3177,
+          "LinkedIn": 0.0291,
+          "WhatsApp": 0.6137
+        }
+      },
+      {
+        "hour": 9,
+        "prediction": "WhatsApp",
+        "confidence": 0.7533,
+        "probs": {
+          "Instagram": 0.0024,
+          "YouTube": 0.2383,
+          "LinkedIn": 0.006,
+          "WhatsApp": 0.7533
+        }
+      },
+      {
+        "hour": 10,
+        "prediction": "WhatsApp",
+        "confidence": 0.4535,
+        "probs": {
+          "Instagram": 0.0398,
+          "YouTube": 0.2055,
+          "LinkedIn": 0.3012,
+          "WhatsApp": 0.4535
+        }
+      },
+      {
+        "hour": 11,
+        "prediction": "LinkedIn",
+        "confidence": 0.5432,
+        "probs": {
+          "Instagram": 0.0906,
+          "YouTube": 0.1158,
+          "LinkedIn": 0.5432,
+          "WhatsApp": 0.2504
+        }
+      },
+      {
+        "hour": 12,
+        "prediction": "LinkedIn",
+        "confidence": 0.5381,
+        "probs": {
+          "Instagram": 0.1307,
+          "YouTube": 0.1091,
+          "LinkedIn": 0.5381,
+          "WhatsApp": 0.2221
+        }
+      },
+      {
+        "hour": 13,
+        "prediction": "Instagram",
+        "confidence": 0.4567,
+        "probs": {
+          "Instagram": 0.4567,
+          "YouTube": 0.0997,
+          "LinkedIn": 0.2753,
+          "WhatsApp": 0.1682
+        }
+      },
+      {
+        "hour": 14,
+        "prediction": "Instagram",
+        "confidence": 0.2832,
+        "probs": {
+          "Instagram": 0.2832,
+          "YouTube": 0.1791,
+          "LinkedIn": 0.2611,
+          "WhatsApp": 0.2766
+        }
+      },
+      {
+        "hour": 15,
+        "prediction": "WhatsApp",
+        "confidence": 0.3285,
+        "probs": {
+          "Instagram": 0.1906,
+          "YouTube": 0.2079,
+          "LinkedIn": 0.273,
+          "WhatsApp": 0.3285
+        }
+      },
+      {
+        "hour": 16,
+        "prediction": "WhatsApp",
+        "confidence": 0.319,
+        "probs": {
+          "Instagram": 0.2052,
+          "YouTube": 0.224,
+          "LinkedIn": 0.2519,
+          "WhatsApp": 0.319
+        }
+      },
+      {
+        "hour": 17,
+        "prediction": "WhatsApp",
+        "confidence": 0.3038,
+        "probs": {
+          "Instagram": 0.226,
+          "YouTube": 0.247,
+          "LinkedIn": 0.2231,
+          "WhatsApp": 0.3038
+        }
+      },
+      {
+        "hour": 18,
+        "prediction": "YouTube",
+        "confidence": 0.3475,
+        "probs": {
+          "Instagram": 0.2545,
+          "YouTube": 0.3475,
+          "LinkedIn": 0.1418,
+          "WhatsApp": 0.2562
+        }
+      },
+      {
+        "hour": 19,
+        "prediction": "YouTube",
+        "confidence": 0.7525,
+        "probs": {
+          "Instagram": 0.1163,
+          "YouTube": 0.7525,
+          "LinkedIn": 0.0467,
+          "WhatsApp": 0.0845
+        }
+      },
+      {
+        "hour": 20,
+        "prediction": "YouTube",
+        "confidence": 0.8532,
+        "probs": {
+          "Instagram": 0.0781,
+          "YouTube": 0.8532,
+          "LinkedIn": 0.0215,
+          "WhatsApp": 0.0471
+        }
+      },
+      {
+        "hour": 21,
+        "prediction": "YouTube",
+        "confidence": 0.4268,
+        "probs": {
+          "Instagram": 0.3239,
+          "YouTube": 0.4268,
+          "LinkedIn": 0.0415,
+          "WhatsApp": 0.2078
+        }
+      },
+      {
+        "hour": 22,
+        "prediction": "YouTube",
+        "confidence": 0.3959,
+        "probs": {
+          "Instagram": 0.3365,
+          "YouTube": 0.3959,
+          "LinkedIn": 0.0438,
+          "WhatsApp": 0.2238
+        }
+      },
+      {
+        "hour": 23,
+        "prediction": "Instagram",
+        "confidence": 0.4264,
+        "probs": {
+          "Instagram": 0.4264,
+          "YouTube": 0.3084,
+          "LinkedIn": 0.0208,
+          "WhatsApp": 0.2444
+        }
+      }
+    ],
+    "Grad Ascent": [
+      {
+        "hour": 0,
+        "prediction": "Instagram",
+        "confidence": 0.3757,
+        "probs": {
+          "Instagram": 0.3757,
+          "YouTube": 0.2576,
+          "LinkedIn": 0.0389,
+          "WhatsApp": 0.3278
+        }
+      },
+      {
+        "hour": 1,
+        "prediction": "WhatsApp",
+        "confidence": 0.3302,
+        "probs": {
+          "Instagram": 0.327,
+          "YouTube": 0.2833,
+          "LinkedIn": 0.0595,
+          "WhatsApp": 0.3302
+        }
+      },
+      {
+        "hour": 2,
+        "prediction": "WhatsApp",
+        "confidence": 0.351,
+        "probs": {
+          "Instagram": 0.2706,
+          "YouTube": 0.2901,
+          "LinkedIn": 0.0883,
+          "WhatsApp": 0.351
+        }
+      },
+      {
+        "hour": 3,
+        "prediction": "WhatsApp",
+        "confidence": 0.3801,
+        "probs": {
+          "Instagram": 0.2294,
+          "YouTube": 0.2776,
+          "LinkedIn": 0.1129,
+          "WhatsApp": 0.3801
+        }
+      },
+      {
+        "hour": 4,
+        "prediction": "WhatsApp",
+        "confidence": 0.3863,
+        "probs": {
+          "Instagram": 0.2107,
+          "YouTube": 0.2801,
+          "LinkedIn": 0.1229,
+          "WhatsApp": 0.3863
+        }
+      },
+      {
+        "hour": 5,
+        "prediction": "WhatsApp",
+        "confidence": 0.3732,
+        "probs": {
+          "Instagram": 0.2142,
+          "YouTube": 0.2806,
+          "LinkedIn": 0.132,
+          "WhatsApp": 0.3732
+        }
+      },
+      {
+        "hour": 6,
+        "prediction": "WhatsApp",
+        "confidence": 0.3451,
+        "probs": {
+          "Instagram": 0.2539,
+          "YouTube": 0.2596,
+          "LinkedIn": 0.1414,
+          "WhatsApp": 0.3451
+        }
+      },
+      {
+        "hour": 7,
+        "prediction": "WhatsApp",
+        "confidence": 0.3625,
+        "probs": {
+          "Instagram": 0.2933,
+          "YouTube": 0.2349,
+          "LinkedIn": 0.1093,
+          "WhatsApp": 0.3625
+        }
+      },
+      {
+        "hour": 8,
+        "prediction": "WhatsApp",
+        "confidence": 0.612,
+        "probs": {
+          "Instagram": 0.0597,
+          "YouTube": 0.2954,
+          "LinkedIn": 0.0329,
+          "WhatsApp": 0.612
+        }
+      },
+      {
+        "hour": 9,
+        "prediction": "WhatsApp",
+        "confidence": 0.6164,
+        "probs": {
+          "Instagram": 0.003,
+          "YouTube": 0.3659,
+          "LinkedIn": 0.0147,
+          "WhatsApp": 0.6164
+        }
+      },
+      {
+        "hour": 10,
+        "prediction": "LinkedIn",
+        "confidence": 0.4007,
+        "probs": {
+          "Instagram": 0.089,
+          "YouTube": 0.2032,
+          "LinkedIn": 0.4007,
+          "WhatsApp": 0.3071
+        }
+      },
+      {
+        "hour": 11,
+        "prediction": "LinkedIn",
+        "confidence": 0.4546,
+        "probs": {
+          "Instagram": 0.1485,
+          "YouTube": 0.1444,
+          "LinkedIn": 0.4546,
+          "WhatsApp": 0.2525
+        }
+      },
+      {
+        "hour": 12,
+        "prediction": "LinkedIn",
+        "confidence": 0.4089,
+        "probs": {
+          "Instagram": 0.2294,
+          "YouTube": 0.1385,
+          "LinkedIn": 0.4089,
+          "WhatsApp": 0.2231
+        }
+      },
+      {
+        "hour": 13,
+        "prediction": "Instagram",
+        "confidence": 0.5937,
+        "probs": {
+          "Instagram": 0.5937,
+          "YouTube": 0.096,
+          "LinkedIn": 0.1781,
+          "WhatsApp": 0.1323
+        }
+      },
+      {
+        "hour": 14,
+        "prediction": "Instagram",
+        "confidence": 0.4199,
+        "probs": {
+          "Instagram": 0.4199,
+          "YouTube": 0.1563,
+          "LinkedIn": 0.2067,
+          "WhatsApp": 0.2171
+        }
+      },
+      {
+        "hour": 15,
+        "prediction": "WhatsApp",
+        "confidence": 0.3621,
+        "probs": {
+          "Instagram": 0.1626,
+          "YouTube": 0.2013,
+          "LinkedIn": 0.274,
+          "WhatsApp": 0.3621
+        }
+      },
+      {
+        "hour": 16,
+        "prediction": "WhatsApp",
+        "confidence": 0.3841,
+        "probs": {
+          "Instagram": 0.1541,
+          "YouTube": 0.2038,
+          "LinkedIn": 0.258,
+          "WhatsApp": 0.3841
+        }
+      },
+      {
+        "hour": 17,
+        "prediction": "WhatsApp",
+        "confidence": 0.3506,
+        "probs": {
+          "Instagram": 0.1794,
+          "YouTube": 0.2282,
+          "LinkedIn": 0.2417,
+          "WhatsApp": 0.3506
+        }
+      },
+      {
+        "hour": 18,
+        "prediction": "YouTube",
+        "confidence": 0.3293,
+        "probs": {
+          "Instagram": 0.2128,
+          "YouTube": 0.3293,
+          "LinkedIn": 0.1713,
+          "WhatsApp": 0.2866
+        }
+      },
+      {
+        "hour": 19,
+        "prediction": "YouTube",
+        "confidence": 0.8948,
+        "probs": {
+          "Instagram": 0.0472,
+          "YouTube": 0.8948,
+          "LinkedIn": 0.0201,
+          "WhatsApp": 0.038
+        }
+      },
+      {
+        "hour": 20,
+        "prediction": "YouTube",
+        "confidence": 0.8965,
+        "probs": {
+          "Instagram": 0.0475,
+          "YouTube": 0.8965,
+          "LinkedIn": 0.0178,
+          "WhatsApp": 0.0382
+        }
+      },
+      {
+        "hour": 21,
+        "prediction": "YouTube",
+        "confidence": 0.8708,
+        "probs": {
+          "Instagram": 0.0594,
+          "YouTube": 0.8708,
+          "LinkedIn": 0.0208,
+          "WhatsApp": 0.0491
+        }
+      },
+      {
+        "hour": 22,
+        "prediction": "YouTube",
+        "confidence": 0.4685,
+        "probs": {
+          "Instagram": 0.251,
+          "YouTube": 0.4685,
+          "LinkedIn": 0.0519,
+          "WhatsApp": 0.2286
+        }
+      },
+      {
+        "hour": 23,
+        "prediction": "Instagram",
+        "confidence": 0.3736,
+        "probs": {
+          "Instagram": 0.3736,
+          "YouTube": 0.2592,
+          "LinkedIn": 0.0176,
+          "WhatsApp": 0.3496
+        }
+      }
+    ],
+    "SISA": [
+      {
+        "hour": 0,
+        "prediction": "Instagram",
+        "confidence": 0.3672,
+        "probs": {
+          "Instagram": 0.3672,
+          "YouTube": 0.2501,
+          "LinkedIn": 0.0373,
+          "WhatsApp": 0.3453
+        }
+      },
+      {
+        "hour": 1,
+        "prediction": "WhatsApp",
+        "confidence": 0.381,
+        "probs": {
+          "Instagram": 0.3291,
+          "YouTube": 0.217,
+          "LinkedIn": 0.0729,
+          "WhatsApp": 0.381
+        }
+      },
+      {
+        "hour": 2,
+        "prediction": "WhatsApp",
+        "confidence": 0.4201,
+        "probs": {
+          "Instagram": 0.1998,
+          "YouTube": 0.2553,
+          "LinkedIn": 0.1249,
+          "WhatsApp": 0.4201
+        }
+      },
+      {
+        "hour": 3,
+        "prediction": "WhatsApp",
+        "confidence": 0.413,
+        "probs": {
+          "Instagram": 0.1148,
+          "YouTube": 0.3002,
+          "LinkedIn": 0.1719,
+          "WhatsApp": 0.413
+        }
+      },
+      {
+        "hour": 4,
+        "prediction": "WhatsApp",
+        "confidence": 0.3894,
+        "probs": {
+          "Instagram": 0.1038,
+          "YouTube": 0.3486,
+          "LinkedIn": 0.1582,
+          "WhatsApp": 0.3894
+        }
+      },
+      {
+        "hour": 5,
+        "prediction": "YouTube",
+        "confidence": 0.4315,
+        "probs": {
+          "Instagram": 0.1031,
+          "YouTube": 0.4315,
+          "LinkedIn": 0.1213,
+          "WhatsApp": 0.3441
+        }
+      },
+      {
+        "hour": 6,
+        "prediction": "YouTube",
+        "confidence": 0.497,
+        "probs": {
+          "Instagram": 0.1056,
+          "YouTube": 0.497,
+          "LinkedIn": 0.075,
+          "WhatsApp": 0.3225
+        }
+      },
+      {
+        "hour": 7,
+        "prediction": "WhatsApp",
+        "confidence": 0.4304,
+        "probs": {
+          "Instagram": 0.1959,
+          "YouTube": 0.3188,
+          "LinkedIn": 0.0549,
+          "WhatsApp": 0.4304
+        }
+      },
+      {
+        "hour": 8,
+        "prediction": "WhatsApp",
+        "confidence": 0.5673,
+        "probs": {
+          "Instagram": 0.0986,
+          "YouTube": 0.2691,
+          "LinkedIn": 0.0649,
+          "WhatsApp": 0.5673
+        }
+      },
+      {
+        "hour": 9,
+        "prediction": "WhatsApp",
+        "confidence": 0.648,
+        "probs": {
+          "Instagram": 0.0763,
+          "YouTube": 0.2021,
+          "LinkedIn": 0.0737,
+          "WhatsApp": 0.648
+        }
+      },
+      {
+        "hour": 10,
+        "prediction": "WhatsApp",
+        "confidence": 0.5073,
+        "probs": {
+          "Instagram": 0.0827,
+          "YouTube": 0.0922,
+          "LinkedIn": 0.3179,
+          "WhatsApp": 0.5073
+        }
+      },
+      {
+        "hour": 11,
+        "prediction": "LinkedIn",
+        "confidence": 0.4584,
+        "probs": {
+          "Instagram": 0.1238,
+          "YouTube": 0.0338,
+          "LinkedIn": 0.4584,
+          "WhatsApp": 0.3839
+        }
+      },
+      {
+        "hour": 12,
+        "prediction": "LinkedIn",
+        "confidence": 0.4107,
+        "probs": {
+          "Instagram": 0.3638,
+          "YouTube": 0.0435,
+          "LinkedIn": 0.4107,
+          "WhatsApp": 0.1821
+        }
+      },
+      {
+        "hour": 13,
+        "prediction": "Instagram",
+        "confidence": 0.5142,
+        "probs": {
+          "Instagram": 0.5142,
+          "YouTube": 0.0466,
+          "LinkedIn": 0.2772,
+          "WhatsApp": 0.1619
+        }
+      },
+      {
+        "hour": 14,
+        "prediction": "Instagram",
+        "confidence": 0.3429,
+        "probs": {
+          "Instagram": 0.3429,
+          "YouTube": 0.1259,
+          "LinkedIn": 0.2784,
+          "WhatsApp": 0.2527
+        }
+      },
+      {
+        "hour": 15,
+        "prediction": "WhatsApp",
+        "confidence": 0.3762,
+        "probs": {
+          "Instagram": 0.1309,
+          "YouTube": 0.1808,
+          "LinkedIn": 0.3121,
+          "WhatsApp": 0.3762
+        }
+      },
+      {
+        "hour": 16,
+        "prediction": "WhatsApp",
+        "confidence": 0.404,
+        "probs": {
+          "Instagram": 0.1214,
+          "YouTube": 0.1672,
+          "LinkedIn": 0.3074,
+          "WhatsApp": 0.404
+        }
+      },
+      {
+        "hour": 17,
+        "prediction": "WhatsApp",
+        "confidence": 0.3619,
+        "probs": {
+          "Instagram": 0.1547,
+          "YouTube": 0.2203,
+          "LinkedIn": 0.2632,
+          "WhatsApp": 0.3619
+        }
+      },
+      {
+        "hour": 18,
+        "prediction": "YouTube",
+        "confidence": 0.3513,
+        "probs": {
+          "Instagram": 0.2283,
+          "YouTube": 0.3513,
+          "LinkedIn": 0.1542,
+          "WhatsApp": 0.2662
+        }
+      },
+      {
+        "hour": 19,
+        "prediction": "YouTube",
+        "confidence": 0.8366,
+        "probs": {
+          "Instagram": 0.0671,
+          "YouTube": 0.8366,
+          "LinkedIn": 0.0434,
+          "WhatsApp": 0.0529
+        }
+      },
+      {
+        "hour": 20,
+        "prediction": "YouTube",
+        "confidence": 0.8643,
+        "probs": {
+          "Instagram": 0.0764,
+          "YouTube": 0.8643,
+          "LinkedIn": 0.0276,
+          "WhatsApp": 0.0317
+        }
+      },
+      {
+        "hour": 21,
+        "prediction": "YouTube",
+        "confidence": 0.5364,
+        "probs": {
+          "Instagram": 0.3245,
+          "YouTube": 0.5364,
+          "LinkedIn": 0.0455,
+          "WhatsApp": 0.0936
+        }
+      },
+      {
+        "hour": 22,
+        "prediction": "Instagram",
+        "confidence": 0.3542,
+        "probs": {
+          "Instagram": 0.3542,
+          "YouTube": 0.3459,
+          "LinkedIn": 0.0437,
+          "WhatsApp": 0.2563
+        }
+      },
+      {
+        "hour": 23,
+        "prediction": "Instagram",
+        "confidence": 0.3942,
+        "probs": {
+          "Instagram": 0.3942,
+          "YouTube": 0.2844,
+          "LinkedIn": 0.0213,
+          "WhatsApp": 0.3002
+        }
+      }
+    ]
+  },
+  "hourly_diff_count": {
+    "FedEraser": 9,
+    "Grad Ascent": 9,
+    "SISA": 9
+  }
 }

@@ -1,0 +1,38 @@
+{
+  "forget_user": "user1",
+  "device_ga": {
+    "total_time_seconds": 0.223812307,
+    "n_records": 2289,
+    "loss_history": [
+      1.3881150548431702,
+      1.4454460536422173,
+      1.512075941993276,
+      1.5973431532361408,
+      1.6917867649119045
+    ],
+    "lr": 0.001,
+    "epochs": 5,
+    "batch_size": 32,
+    "max_norm": 1,
+    "seed": 42,
+    "optimizer": "SGD"
+  },
+  "server_recovery": {
+    "rounds": 3,
+    "epochs_per_round": 5,
+    "loss_history": [
+      1.0264980792999268,
+      1.0174817144870758,
+      1.021195888519287
+    ],
+    "total_time_seconds": 3.4338436126708984
+  },
+  "evaluation_8_10": {
+    "Instagram": 0.008748095482587814,
+    "YouTube": 0.4916994273662567,
+    "LinkedIn": 0.05007028207182884,
+    "WhatsApp": 0.4494820237159729,
+    "sample_count": 144
+  },
+  "pipeline_total_time_seconds": 3.6576559196708986
+}
